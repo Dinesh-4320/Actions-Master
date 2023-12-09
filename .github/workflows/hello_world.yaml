@@ -17,3 +17,10 @@ jobs:
       - name: Displaying Hello worls
         run: echo "Hello World"
         shell: bash
+  Bye:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Displaying Good Bye
+        run: echo "Good Bye"
+        shell: bash
